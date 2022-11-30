@@ -1,0 +1,98 @@
+body{
+    background: rgb(41, 40, 40);
+    color: red;
+    text-align: center;
+}
+.battle__field{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.result{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+.points{
+    width: fit-content;
+    align-self: center;
+    color: firebrick
+}
+.choose{
+    letter-spacing: 2px;
+    font-style: oblique;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.characters{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+}
+.characters img:hover{
+    cursor: pointer;
+    box-shadow: 3px 0px .4em rgb(72, 255, 0), 0px 3px .4em rgb(72, 255, 0),-3px 0px .4em rgb(72, 255, 0),0 -3px .4em rgb(72, 255, 0);
+    transition: 0.5s;
+}
+.current_points{
+    font-size: larger;
+    color: burlywood;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.title h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #fcfffc;
+}
+.list_menu a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: #fcfffc;
+    border-left: 2px solid #f5b7c7;
+    padding-left: 5px;
+    transition: all 0.2s ease;
+}
+.list_menu a:hover{
+    border-left: 2px solid #f5b7c7;
+    padding-left: 10px;
+    transition: all 0.2s ease;
+}
+.footer_menu p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #fcfffc;
+}
+.list_menu{
+    margin-bottom: 50px;
+}
+.list_menu li{
+    margin: 20px 0;
+}
+.menu{
+    padding: 25vh 50px;
+    position: fixed;
+    background: rgba(20,20,20,.5);
+    height: 100vh;
+    backdrop-filter: blur(16px);
+    border-right: 5px solid #fcfffc;
+    left: -346px;
+}
+.menu:hover{
+    left: 0;
+    transition: all 0.2s ease;
+}
+.content{
+    
+    width: 280px;
+    height: 100vh;
+    overflow: hidden;
+}
+ul{
+    list-style: circle;
+    font-size: 40px;
+}
+li a{
+    font-size: 40px;
+}

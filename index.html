@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/nullstyle.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="img/favicon.png">
+    <title>Frontend_practice</title>
+</head>
+<body>
+    <div class="menu">
+        <div class="title"><h1>Menu</h1>
+            <div class="list_menu"></div>
+            <ul>
+                <li><a href="https://create-react-app-2351234.web.app">Test</a></li>
+                <li><a href="https://yarik22.github.io/lr10/">Casino</a></li>
+                <li><a href="https://yarik22.github.io/lr9/">Card game</a></li>
+                <li><a href="https://yarik22.github.io/lr7/">Magic ball</a></li>
+            </ul>
+        </div>
+        <div class="footer_menu">
+            <p>
+               @Copyright 2022
+            </p>
+        </div>
+        <div class="content">
+        </div>
+    </div>
+    <div class="choose">
+        Choose your character
+    </div>
+    <div class="characters">
+        <div><img src="img/diluc.png"width="150px" alt="Diluc" onclick="choose()"><b><i>Diluc</i></b></div>
+        <div><img src="img/eula.png"width="220px" alt="Eula" onclick="choose()"><b><i>Eula</i></b></div>
+        <div><img src="img/zhongli.png"width="280px" alt="Zhongli" onclick="choose()"><b><i>Zhongli</i></b></div>
+    </div>
+    <div class="battle__field">
+        <div>
+            <img alt="Player" id="player">
+            Player
+        </div>
+        <div class="result">
+            <div>
+                
+            </div>
+            <div class="points">
+                <button onclick="dice()">
+                    Roll
+                </button>
+                <button onclick="restart()">
+                    Restart
+                </button>
+                <div class="current_points">
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="img/bot.png" width="300px" alt="Bot">
+            Amogus
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
